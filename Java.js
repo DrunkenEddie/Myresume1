@@ -1,6 +1,6 @@
 const containerE1 = document.querySelector(".container");
 
-const careers =["Excellent serices and quick response, Much appriciated", "Very knowledgeable Helpful and courteous", "Your efforts made a real difference. Appreciate the excellent work!", "Instructor","Jio Dhandhanadhan"];
+const careers =["Excellent serices and quick response, Much appriciated", "Very knowledgeable Helpful and courteous", "Your efforts made a real difference. Appreciate the excellent work!"];
 
 let carrerIndex =0;
 
