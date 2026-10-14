@@ -1,6 +1,6 @@
 const containerE1 = document.querySelector(".container");
 
-const careers =["Excellent serices and quick response, Much appriciated", "Very knowledgeable Helpful and courteous", "Your efforts made a real difference. Appreciate the excellent work!"];
+const careers =["Excellent work! Truly appreciate your professionalism and timely support", "Very knowledgeable Helpful and courteous","Fantastic collaboration and flawless execution. Much appreciated!", "Your efforts made a real difference. Appreciate the excellent work!"];
 
 let carrerIndex =0;
 
@@ -12,7 +12,7 @@ function updateText(){
   charecterIndex++;
 containerE1.innerHTML=`
 <h1>from my clients ${careers[carrerIndex].
-  slice(0,1) === "I" ? "an":"a"} ${careers[carrerIndex].slice(0,charecterIndex)} </h1>
+  slice(0,1) === " " ? " ":" "} ${careers[carrerIndex].slice(0,charecterIndex)} </h1>
 `;
 
   
